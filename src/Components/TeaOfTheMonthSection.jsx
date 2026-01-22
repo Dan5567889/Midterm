@@ -31,7 +31,8 @@ function TeaOfTheMonthSection() {
                     <img src={I3} alt="Gallery Image 1" />
                     <p>Seasonal Donuts</p>
                 </div>
-
+                </div>
+                <div className={styles.teaItem2}>
                 <div>
                     <img src={I4} alt="Gallery Image 1" />
                     <p>Myrtle Ave Tea </p>

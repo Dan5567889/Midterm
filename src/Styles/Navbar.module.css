@@ -1,12 +1,16 @@
-.navbar{
-    display:flex;
+.navbar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     height: 69px;
-    Width:1440px;
+    width: 100%; 
     background-color: black;
     text-decoration: underline;
     border-bottom: 1px solid seashell;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
 }
 
 .navbar a {
@@ -15,19 +19,18 @@
 }
 
 .navbar a:hover {
-    Color:lightblue;
+    color: lightblue;
 }
 
-.logo{
+.logo {
     float: left;
     height: 50px;
     margin-left: 10px;
-
-    
 }
 
-.ul{
+.ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+    margin-right: 10px;
 }
