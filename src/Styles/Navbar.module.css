@@ -1,0 +1,33 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    Width:1440px;
+    background-color: black;
+    text-decoration: underline;
+    border-bottom: 1px solid seashell;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    Color:lightblue;
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+
+    
+}
+
+.ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
